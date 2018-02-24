@@ -1,7 +1,7 @@
 {
 	"coin": "LWF",
-	"node": "https://twalllet.lwf.io",
-	"nodepay": "https://twalllet.lwf.io",
+	"node": "https://twallet.lwf.io",
+	"nodepay": "https://twallet.lwf.io",
 	"pubkey": "e09a60be2330b3e77718116796c4cea9957590d638cefe88ac6a08793f5a7076",
 	"percentage": 69,
 	"logfile": "poollogs.json",
