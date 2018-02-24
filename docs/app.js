@@ -17,7 +17,7 @@ app.controller('indexCtrl', function($scope, $http) {
         }
     });
 
-    $http.get ('https://twallet.lwf.io/api/delegates/get?username=labo').then (function (res) {
+    $http.get ('https://wallet.lwf.io/api/delegates/get?username=maxlabo').then (function (res) {
         $scope.delegate = res.data.delegate;
     });
 });
