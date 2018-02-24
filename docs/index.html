@@ -9,7 +9,7 @@
     </head>
     <body ng-app="delegateApp" ng-controller="indexCtrl">
         <div class="container">
-            <h1>maxlabo_pool (<a href="https://texplorer.lwf.io/address/5548560176070194947LWF" target="_blank">Explorer</a>)</h1>
+            <h1>maxlabo_pool (<a href="https://explorer.lwf.io/address/5548560176070194947LWF" target="_blank">Explorer</a>)</h1>
             <div class="alert alert-info" role="alert">Sharing 69% of forged rewards daily. Vote for delegate maxlabo to recieve rewards.</div>
 
             <div class="row">
@@ -38,8 +38,8 @@
                 <thead>
                     <tr>
                         <th>Address</th>
-                        <th>Paid (OXY)</th>
-                        <th>Pending (OXY)</th>
+                        <th>Paid (LWF)</th>
+                        <th>Pending (LWF)</th>
                 </thead>
                 <tbody>
                     <tr ng-repeat="acc in (accounts|orderBy:'-received')">
